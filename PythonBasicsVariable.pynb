@@ -1,0 +1,1108 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "29bf8d90-a658-4b47-8bcd-258e92c66e3c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a1=57837\n",
+    "a2=768639"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "bbf1efd7-14a0-479e-a22d-0ce42d480289",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.07524598673759723"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a1/a2\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "92051fe1-d548-4cff-97ef-394fee806fcf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "-710802"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a1-a2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "5f75c01f-34ee-4037-9300-d5878875a9a0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "44455773843"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a1*a2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "96dffd7d-ab80-49a6-bc37-7ad73ecdb615",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a1,a2 = 34,45"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "4f4bf3a6-8578-40f5-829d-8597f16e4b01",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1530"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a1*a2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "c66d79a2-5de2-4eba-a56c-82377cb24dda",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "34"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "45254111-a236-43e0-b940-bc8b9605eb8b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "45"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "0cc065e1-9b12-420f-9fd1-ece9934d7959",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a,b,c,d = 354,\"sourabh\",True,34.67"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "4b147954-2342-46a9-9cb4-e2bf7d4de72d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "1f692c35-eaf9-4be7-b94d-a232b718ad0e",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sourabh'"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "2ae82e41-1bac-4a02-b981-f6eabdeaecfa",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "354"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "8946193d-99e2-42a1-a127-3da38e796c32",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "34.67"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "d"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "c0e05b0e-bffc-4d41-b176-88a5b983bbba",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Here we get an error because this is a syntax error \n",
+    "\n",
+    "# %a=234"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "01fa2dd7-1ace-435f-a8cb-b8f9170561b4",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid binary literal (2178560628.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[15], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    0b=658356\u001b[0m\n\u001b[0m     ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid binary literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "0b=658356"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4bc3af0e-a0d5-4230-8f67-5784f068091d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b0=79"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "54b299d2-3294-4a9e-ac51-710ebef5faad",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "@y=9867"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "04a75738-7530-4b16-a8b0-d62d6ea7d469",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "@y==6796"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0491ed6e-9b7a-4a9e-a4b1-8c52e10fd90f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "_A=65"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bd6d74b4-cf1a-4b9d-9902-39442a7ce4e3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "_a=98467496"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6db0693b-6f63-4a76-9af1-1c967309d236",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "-b=986"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6656a8bc-8e99-4b7c-b228-46dc73f256db",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "True=45"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "706985a1-51ef-4100-ac02-ea3188ed1222",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "int =768"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6efd1318-2d65-41f3-9257-08f1e2fe502c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "int"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5f3ac848-bc97-4b20-b369-52836f99a56b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b1=TRUE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dd268523-0b03-4185-83f3-7fd2eba9cf0b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b1=True"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a0b6a431-f31c-4cc5-bf3b-cb5ba0d4c06c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b2=False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7725b2be-aa43-417c-a418-58a770ae7711",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c567b9d0-8047-4f84-aceb-c3afb50544cf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b1-b2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2ead5935-e7a4-4b9c-8b88-a3bcaaf1b7d4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b2-b1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9b7fb76d-dc4f-4a14-96a8-ffa76ea4c422",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b1/b2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f165feba-4b9e-4d6b-ba65-936898a86837",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b1%b2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0bdd7328-9471-4d1f-b785-4266c8122ee1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b2%b1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2e8b2693-5712-4784-acb1-d229886985d3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1 = \"My name is Sourabh\"\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7d607840-1351-4103-9cb3-5bda7038d654",
+   "metadata": {},
+   "source": [
+    "# "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b80c024a-1a92-4677-b8e5-81c512b9e945",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7532c53f-93cd-4e84-8793-a9cc6666c667",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "type(s1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d00dd2a2-8400-41e3-9411-c0b8ef6d8bf0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s2=\"This is my first python class for data science master's\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "32016168-848a-436b-a619-437fe303c589",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# This is my code to create a string variable with quotes\n",
+    "\n",
+    "s3='This is my first python class for data science master\"s'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2888301b-5769-4245-9a5d-3edc1aea8411",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=\"Hellow\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cdac2f4c-e7b6-405b-bdc1-bc9cb1e88bc4",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d6aac364-dc12-4538-91ed-6f981beac29a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b='sourabh'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5cadbe00-1ab6-45b3-9832-cd94384e98ec",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4df0e885-e007-4ea4-8f85-dddb59e68f9d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=\"hii\"\n",
+    "b=a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d9ff682a-2ccf-4273-9da5-ee7f4677d3ac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a39410bc-76bb-4991-ae10-05320daca1d6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "'''this is my first python class \n",
+    "i am trying to laern variabl edeclaration \n",
+    "so far i have learnt int , boolean,string,complex number, float variable declartion'''\n",
+    "a = 10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "85b67f21-a6bd-477f-8761-d9214f825c58",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5d60595e-ee66-40d6-b1f6-ab4fa5d31aaf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c4e323bc-3297-486c-b34f-0afaa62fe49f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7d315314-9060-4088-8880-31a32dc91260",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1=\"sourabh\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ba7930db-1914-46ba-a58e-6efbc9370590",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=10"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "efea509f-9914-4128-a1b4-b4edc67b3f5e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s1+a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "804a369f-b0e6-46e1-a48d-9477bc4e2857",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a+s1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "536937f9-08bc-4224-9446-a249d8bf1951",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y=\"asd\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "998b0267-396d-4e54-a2e6-911c2e528bee",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l=\"kjsdhgk\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "18b16d59-35f5-4790-acb2-45bfe719c84f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y+l"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "852b927e-24c9-4d37-bf62-2b5eb891f912",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\"sourabh\"+\"yadav\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b1fd11d7-b394-499f-a9aa-b6ea4875e57e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "721c3fa6-7855-4a3e-bc6b-e47dddacbecd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c=a+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2247525f-0088-4b48-9ccd-e91be3d5d3d0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f514f366-c6c9-43b9-9a77-15109c5ffc62",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5378b6f8-9d4d-41d0-b689-1eee76c3fc2d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "391181b7-208f-4be3-9fb9-d4737815890d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "str(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "90427626-dc37-43cd-96bc-c7655897309d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "'10'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8fb6369c-8812-40f7-a9ee-436fbafd8c84",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a='sourabh'\n",
+    "b='10'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1471a5e7-a7e5-467a-a4e5-655fbc9a4b29",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c6a88bbb-050a-45ac-b190-cd89346c0942",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a='sourabh'\n",
+    "b='_yadav'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "146d0e92-6544-472c-8635-f16d1d294e1c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "16415e36-0bd7-4f96-a25d-e4f9a0094fb9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a='sourabh'\n",
+    "b=' yadav'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6670896a-2713-4a4b-b20c-9e93d1c0f13e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "38672faf-63e8-4c7d-a004-f0085c0abe43",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a + \" \"+ str(10)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c08277cb-e90c-49b0-8a8f-757f47e0b049",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=10\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "32e3fff2-09f8-4c14-aa92-c2473ff43ff2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ff5a3bf6-ef9d-48c2-8767-af1253ed1128",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b=str(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f3360944-4797-4f46-bbe7-d387b392ac24",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "88be6733-60b9-42f9-a3c4-3f138fd47ca5",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "invalid literal for int() with base 10: 'sourabh'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[16], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[38;5;28;43mint\u001b[39;49m\u001b[43m(\u001b[49m\u001b[43mb\u001b[49m\u001b[43m)\u001b[49m\n",
+      "\u001b[0;31mValueError\u001b[0m: invalid literal for int() with base 10: 'sourabh'"
+     ]
+    }
+   ],
+   "source": [
+    "int(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "457b97f1-ae78-46ec-8080-518e4c84867a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "s=\"sourab\"\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "9f915950-8334-46ee-9ef7-bb1564eeea61",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "ValueError",
+     "evalue": "invalid literal for int() with base 10: 'sourab'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[2], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[38;5;28;43mint\u001b[39;49m\u001b[43m(\u001b[49m\u001b[43ms\u001b[49m\u001b[43m)\u001b[49m\n",
+      "\u001b[0;31mValueError\u001b[0m: invalid literal for int() with base 10: 'sourab'"
+     ]
+    }
+   ],
+   "source": [
+    "int(s)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "f1b4b23c-e8ba-4f4e-af49-70603427bb2c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "k='''euhfkwgniwg\n",
+    "liuriwetcriu\n",
+    "weitbuwtr8o'''"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "0f75b5ba-79f9-4b0b-8557-3d1b71979a31",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'euhfkwgniwg\\nliuriwetcriu\\nweitbuwtr8o'"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "k"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "1f3c137f-6fa0-4e4d-90c7-3c5e46190141",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your name sourabh\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=input(\"Enter your name\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "e87ef74d-573e-42b3-a47c-815ffd499d86",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'sourabh'"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "00d8ddaa-24a8-4970-b4f6-c4cc5019bf47",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a=7624575"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "21ed5529-55fa-4c38-b25c-a34264adc77e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 78348734\n"
+     ]
+    }
+   ],
+   "source": [
+    "b=int(input())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "7000d3d9-891b-436a-807c-8cc2aedd107a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "78348734"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "1b5ca6bb-d810-4923-be62-257991a03dbf",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "df3ea63d-2ee3-4879-8ad4-e0edc7b06758",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
